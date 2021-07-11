@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #070724;
+}
+
+body {
+  width: 100%;
+  background-color: #070724;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.navbar form button {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  opacity: 0.75;
+}
+
+@media (min-width: 860px) {
+  .flex-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container div {
+    width: 86%;
+  }
+
+  
+}
