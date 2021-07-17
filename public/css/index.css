@@ -5,6 +5,8 @@
 body {
   padding: 0;
   width: 100%;
+  background-image: url('background-stars.svg');
+  background-repeat: round;
   background-color: #070724;
   color: white;
   font-size: 12px;
@@ -103,10 +105,19 @@ ul a {
 #img-div {
   width: 37%;
   margin-bottom: 5.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #img-div img {
   max-width: 100%;
+}
+
+#geology {
+  max-width: 100%;
+  max-height: 100%;
+  width: 43%;
 }
 
 .text {
@@ -341,6 +352,12 @@ a:hover {
 
   #img-div img {
     width: 75%;
+  }
+
+  #img-div #geology {
+    max-width: 100%;
+    width: 33%;
+    max-height: 100%;
   }
 
   .stats {

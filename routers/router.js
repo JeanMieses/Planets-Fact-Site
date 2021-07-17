@@ -18,8 +18,8 @@ function findReturnPlanet(data, currentPlanet) {
 }
 
 //*******************routers****************************
-router.get('/data', (req, res) => { //I wanted to see how data looked like
-  res.send(data);
+router.get('/', (req, res) => { //I wanted to see how data looked like
+  res.redirect('/earth');
 })
 
 router.get('/:name', (req, res) => {
@@ -29,7 +29,7 @@ router.get('/:name', (req, res) => {
   if(foundPlanet) {
     res.render('planets/index.ejs', {foundPlanet})
   } else {
-    res.redirect('/data');
+    res.redirect('/earth');
   }
 })
 
