@@ -1,29 +1,46 @@
 <%- include('../partials/header')%>
 
 <section class="flex-container">
-  <div class="content">
+  <div id="content">
     <ul>
-      <li> <a href="#">overview</a> </li>
-      <li> <a href="#">structure</a> </li>
-      <li> <a href="#">surface</a> </li>
+      <li class="overview-btn"> <a href="#">overview</a> </li>
+      <li class="structure-btn"> <a href="#">structure</a> </li>
+      <li class="surface-btn"> <a href="#">surface</a> </li>
     </ul>
   </div>
 
-  <h1> <%=foundPlanet.name%> </h1>
+  <div id="facts">
+    <div id="img-div">
+      <img src="planet-<%=foundPlanet.name%>.svg" alt="">
+    </div>
 
-  <div id="overview">
-    <p><%=foundPlanet.overview.content%></p>
-    <p>Source: <a target="_blank" href="<%=foundPlanet.overview.source%>">Wikipedia</a> </p>
-  </div>
+    <div id="facts-content">
+      <div class="text" id="overview">
+        <h1> <%=foundPlanet.name%> </h1>
+        <p><%=foundPlanet.overview.content%></p>
+        <p>Source: <a target="_blank" href="<%=foundPlanet.overview.source%>">Wikipedia</a> </p>
+      </div>
 
-  <div class="hide" id="structure">
-    <p><%=foundPlanet.structure.content%></p>
-    <p>Source: <a target="_blank" href="<%=foundPlanet.structure.source%>">Wikipedia</a> </p>
-  </div>
+      <div class="text hide" id="structure">
+        <h1> <%=foundPlanet.name%> </h1>
+        <p><%=foundPlanet.structure.content%></p>
+        <p>Source: <a target="_blank" href="<%=foundPlanet.structure.source%>">Wikipedia</a> </p>
+      </div>
 
-  <div class="hide" id="surface">
-    <p><%=foundPlanet.geology.content%></p>
-    <p>Source: <a target="_blank" href="<%=foundPlanet.geology.source%>">Wikipedia</a> </p>
+      <div class="text hide" id="surface">
+        <h1> <%=foundPlanet.name%> </h1>
+        <p><%=foundPlanet.geology.content%></p>
+        <p>Source: <a target="_blank" href="<%=foundPlanet.geology.source%>">Wikipedia</a> </p>
+      </div>
+
+      <div id="content-2">
+        <ul>
+          <li class="overview-btn"> <a href="#">overview</a> </li>
+          <li class="structure-btn"> <a href="#">structure</a> </li>
+          <li class="surface-btn"> <a href="#">surface</a> </li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="stats">
