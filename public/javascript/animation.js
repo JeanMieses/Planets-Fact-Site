@@ -18,7 +18,7 @@ for (let i = 1; i < spans.length; i++) {
 // animate the planets img
 anime({
   targets: planet,
-  translateX: [-580, 0], // from 100 to 250
+  translateX: [-640, 0], // from 100 to 250
   translateY: [1250, 0], // from 100 to 250
   duration: 1230,
   delay: 500,
