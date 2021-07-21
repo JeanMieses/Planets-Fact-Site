@@ -1,19 +1,20 @@
 .navbar {
+  z-index: 2;
   background-color: #070724;
 }
 
 body {
   padding: 0;
   width: 100%;
-  background-image: url('background-stars.svg');
   background-repeat: round;
-  background-color: #070724;
+  background: #070724;
   color: white;
   font-size: 12px;
   font-family: sans-serif;
 }
 
 h1 {
+  z-index: 2;
   font-family: 'Antonio', sans-serif;
   text-transform: uppercase;
   margin-bottom: 0.8em;
@@ -25,6 +26,7 @@ h1 {
 }
 
 p {
+  z-index: 2;
   width: 100%;
 }
 
@@ -33,6 +35,7 @@ p {
 }
 
 .navbar form button {
+  z-index: 2;
   text-transform: uppercase;
   background-color: inherit;
   border: none;
@@ -42,6 +45,7 @@ p {
 }
 
 .flex-container {
+  z-index: 2;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -54,6 +58,7 @@ p {
 }
 
 #content {
+  z-index: 2;
   position: relative;
   right: 0;
   left: 0;
@@ -64,6 +69,7 @@ p {
 }
 
 #content ul {
+  z-index: 2;
   padding: 19px 0;
   border-top: solid 1px rgba(255, 255, 255, 0.2);
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
@@ -78,6 +84,7 @@ p {
 }
 
 ul a {
+  z-index: 2;
   text-transform: uppercase;
   opacity: 0.88;
   text-decoration: none;
@@ -85,6 +92,7 @@ ul a {
 }
 
 #facts {
+  z-index: 2;
   margin-bottom: 2em;
   display: flex;
   flex-direction: column;
@@ -128,10 +136,12 @@ ul a {
 }
 
 .stats {
+  z-index: 2;
   margin-bottom: 13em;
 }
 
 .stats p {
+  z-index: 2;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -151,6 +161,7 @@ a:hover {
   opacity: 0.88;
   color: #fff;
 }
+
 
 @media (min-width: 610px) and (max-width: 1023px) {
   .navbar-expand-sm .navbar-collapse {
@@ -258,9 +269,13 @@ a:hover {
   }
 
   #content-2 li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.03);
+    background-color: #6d2ed5;
     transform: scale(1.03);
     transition: 0.24s;
+    transition: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
   }
 }
 
@@ -332,22 +347,22 @@ a:hover {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   #content-2 ul li {
     list-style-type: none;
     margin: 0.6em;
     border: solid 3px rgba(255, 255, 255, 0.2);
-    width: 100%;
+    width: 70%;
     height: 45px;
     padding: 10px 0;
     text-align: center;
   }
 
   #img-div {
-    width: 46.5%;
+    width: 37.5%;
   }
 
   #img-div img {
@@ -386,8 +401,12 @@ a:hover {
   }
 
   #content-2 li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.03);
+    background-color: #6d2ed5;
     transform: scale(1.03);
     transition: 0.24s;
+    transition: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
   }
 }
