@@ -26,8 +26,10 @@ router.get('/:name', (req, res) => {
   let currentPlanet = req.params.name.toString();
   let foundPlanet = findReturnPlanet(data, currentPlanet);
 
-  if(foundPlanet) {
-    res.render('planets/index.ejs', {foundPlanet})
+  if (foundPlanet) {
+    res.render('planets/index.ejs', {
+      foundPlanet
+    })
   } else {
     res.redirect('/earth');
   }

@@ -43,6 +43,9 @@ p {
   opacity: 0.88;
   margin: 0.2em 0;
 }
+.navbar form {
+  margin-bottom: 0.3em;
+}
 
 .flex-container {
   z-index: 2;
@@ -94,6 +97,7 @@ ul a {
 #facts {
   z-index: 2;
   margin-bottom: 2em;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +166,6 @@ a:hover {
   color: #fff;
 }
 
-
 @media (min-width: 610px) and (max-width: 1023px) {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
@@ -173,6 +176,10 @@ a:hover {
     margin: 1em;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     padding-bottom: 15px;
+  }
+
+  .navbar form {
+    margin-bottom: 0;
   }
 
   h1 {
@@ -241,7 +248,16 @@ a:hover {
   }
 
   #img-div {
-    width: 37.5%;
+    width: 55.5%;
+  }
+
+  #img-div img {
+    max-width: 100%;
+    width: 73.5%;
+  }
+
+  #img-div #geology {
+    width: 33%;
   }
 
   .stats {
@@ -270,12 +286,8 @@ a:hover {
 
   #content-2 li:hover {
     transform: scale(1.03);
-    background-color: #6d2ed5;
-    transform: scale(1.03);
-    transition: 0.24s;
-    transition: background-color;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
+    background-color: rgba(255, 255, 255, 0.2);
+
   }
 }
 
@@ -289,6 +301,10 @@ a:hover {
     margin: 1em;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     padding-bottom: 15px;
+  }
+
+  .navbar form {
+    margin-bottom: 0;
   }
 
   h1 {
@@ -325,7 +341,7 @@ a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
   }
 
@@ -353,26 +369,26 @@ a:hover {
 
   #content-2 ul li {
     list-style-type: none;
-    margin: 0.6em;
+    margin: 0.8em;
     border: solid 3px rgba(255, 255, 255, 0.2);
-    width: 70%;
+    width: 79%;
     height: 45px;
     padding: 10px 0;
     text-align: center;
   }
 
-  #img-div {
-    width: 37.5%;
-  }
-
   #img-div img {
-    width: 75%;
+    width: 85%;
   }
 
   #img-div #geology {
     max-width: 100%;
-    width: 33%;
+    width: 53%;
     max-height: 100%;
+  }
+
+  #img-div #geology {
+    width: 33%;
   }
 
   .stats {
@@ -402,11 +418,6 @@ a:hover {
 
   #content-2 li:hover {
     transform: scale(1.03);
-    background-color: #6d2ed5;
-    transform: scale(1.03);
-    transition: 0.24s;
-    transition: background-color;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
+    background-color: rgba(255, 255, 255, 0.2);
   }
 }

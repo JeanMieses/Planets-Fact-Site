@@ -1,3 +1,5 @@
+// For these animations, I used https://animejs.com/
+
 const h1_ = document.querySelector('h1');
 const spans = document.querySelectorAll('span');
 const planet = document.querySelector('#planet');
@@ -13,6 +15,7 @@ for (let i = 1; i < spans.length; i++) {
   });
 }
 
+// animate the planets img
 anime({
   targets: planet,
   translateX: [-580, 0], // from 100 to 250
