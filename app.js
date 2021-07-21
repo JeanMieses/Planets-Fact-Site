@@ -8,6 +8,7 @@ app.use(express.static('assets'));
 // ...
 app.use('', router);
 
-app.listen(3000, () => {
+const port = process.env.PORT || 80
+app.listen(port, () => {
   console.log('Listening');
 })
