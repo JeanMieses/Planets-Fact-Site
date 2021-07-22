@@ -12,6 +12,14 @@ from: https://codepen.io/WebSonick/pen/vjmgu*/
   display:block;
 }
 
+.flex-container .stars {
+  width: 100%;
+}
+
+.flex-container .twinkling {
+  width: 100%;
+}
+
 .stars {
   background:#070724 url('/background-stars.svg') repeat top center;
   z-index:0;
