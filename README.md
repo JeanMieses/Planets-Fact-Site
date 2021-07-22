@@ -49,9 +49,8 @@ Users should be able to:
   What I learned during the process of building this project was how to combine DOM with node.js app. It was the first time for me to combine both of them, and I feel express framework made it easier for me to be capable of that by using express middleware. Also, I am very proud of being capable of reading someone else code online.
 
 ### Continued development
-
-    In the future, I would love to love animate my web apps on my own. I was pretty
-    fun to animate my web page, and then online community in general love my project.
+ In the future, I would love to love animate my web apps on my own. I was pretty
+ fun to animate my web page, and then online community in general love my project.
 
 ## Author
 
