@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-  What I learned during the process of building this project was how to combine DOM with node.js app. It was the first time for me to combine both of them, and I feel express framework made it easier for me to be capable of that using express middleware. Also, I am very proud of being capable of reading someone else code online.
+  What I learned during the process of building this project was how to combine DOM with node.js app. It was the first time for me to combine both of them, and I feel express framework made it easier for me to be capable of that by using express middleware. Also, I am very proud of being capable of reading someone else code online.
 
 ### Continued development
 
