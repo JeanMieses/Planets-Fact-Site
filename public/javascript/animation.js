@@ -20,7 +20,7 @@ anime({
   targets: planet,
   translateX: [-640, 0], // from 100 to 250
   translateY: [1250, 0], // from 100 to 250
-  duration: 1230,
+  duration: 1830,
   delay: 500,
   scale: [{
       value: 2,

@@ -141,6 +141,7 @@ ul a {
 
 .stats {
   z-index: 2;
+  margin-top: 3em;
   margin-bottom: 13em;
 }
 
@@ -261,6 +262,7 @@ a:hover {
   }
 
   .stats {
+    margin-top: 4em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
